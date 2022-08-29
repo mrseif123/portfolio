@@ -138,13 +138,13 @@ and other React-Native hands-on courses.
 <h2 align="center">Web-Development Projects<br> (React/Js/HTML/CSS)</h2>
 <ul align="center">
     <li>
-        <h3 align="center"><a href="https://mrseif12.students.nomoreparties.sbs/">News Explorer</a></h3>
+        <h3 align="center"><a href="https://github.com/mrseif123/News-Explorer-Full">News Explorer</a></h3>
     </li>
     <li>
         <h3 align="center"><a href="https://github.com/mrseif123/robofriends">Robofriends</a></h3>
     </li>
     <li>
-        <h3 align="center"><a href="https://mrseif123.github.io/From-Portland-to-Portland/">From Portland to
+        <h3 align="center"><a href="https://github.com/mrseif123/From-Portland-to-Portland">From Portland to
                 Portland</a></h3>
     </li>
 </ul>
