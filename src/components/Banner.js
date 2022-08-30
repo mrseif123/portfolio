@@ -9,7 +9,7 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Developer", "Designer", "Freelancer"];
+  const toRotate = ["an Explorer", "a Data Enthusiast", "an Innovation Addict"];
   const [text, setText] = useState("");
   const period = 2000;
 
@@ -56,27 +56,30 @@ export const Banner = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to my Portfolio</span>
+                  <span className="tagline">Welcome to my Portfolio!</span>
                   <h1>
-                    {`Hi! I'm Seaf `}
-                    <span
-                      className="txt-rotate"
-                      dataPeriod="1000"
-                      data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'
-                    >
+                    {`I'm Seaf,  `}
+                    <span className="txt-rotate" dataPeriod="1000">
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    3rd year Computer Science student at the Hebrew University
+                    of Jerusalem, where I'm also doing my Master's degree in
+                    Business Adminstration, I learned theoritical computer
+                    science at the university and wanted to expand the practical
+                    knowledge by doing some projects from online courses, here
+                    you find some of them. My passion for learning and exploring
+                    new technologies has led me to this diverse portfolio.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                  <a
+                    href="https://www.linkedin.com/in/mrseif123/"
+                    style={{ textDecoration: "none" }}
+                  >
+                    <button onClick={() => console.log("connect")}>
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </button>
+                  </a>
                 </div>
               )}
             </TrackVisibility>

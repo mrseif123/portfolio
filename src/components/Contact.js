@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
-import TrackVisibility from "react-on-screen";
+import navIcon1 from "../assets/img/nav-icon1.svg";
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -58,8 +58,32 @@ export const Contact = () => {
             />
           </Col>
           <Col size={12} md={6}>
-            <div className="animate__animated animate__fadeIn">
-              <h2>Get In Touch</h2>
+            <div
+              className="animate__animated animate__fadeIn"
+              style={{
+                flex: 1,
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <h2>
+                Get In Touch via
+                <a href="https://www.linkedin.com/in/mrseif123/">
+                  <img
+                    src={navIcon1}
+                    alt="Seaf Aliyan on linkedin"
+                    style={{
+                      width: "50px",
+                      marginLeft: "10px",
+                      padding: "10px",
+                      marginBottom: "5px",
+                      border: "2px solid #fff",
+                      borderRadius: "10%",
+                    }}
+                  />
+                </a>{" "}
+                or:
+              </h2>
               <form onSubmit={handleSubmit}>
                 <Row>
                   <Col size={12} sm={6} className="px-1">
