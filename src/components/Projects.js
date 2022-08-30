@@ -1,8 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+
+import silalImage from "../assets/img/projects/silal.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg4 from "../assets/img/projects/Screenshot_10.png";
 
@@ -12,14 +11,17 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Silal Apps",
+      description:
+        "Project Management, User Interface, User Experience, Requirements Analysis",
+      imgUrl: silalImage,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Containers & Sockets",
+      description: "C++, Docker, Sockets, Networking, ENV, Makefile",
+      imgUrl:
+        "https://th.bing.com/th/id/R.17672cbe27b84735fc9583109dcfa610?rik=7bDUfRuL4Y2fcg&pid=ImgRaw&r=0",
+      link: "https://github.com/mrseif123/ex5",
     },
     {
       title: "sJava Compiler",
