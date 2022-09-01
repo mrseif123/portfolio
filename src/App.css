@@ -544,7 +544,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-
 .proj-imgbx:hover .proj-txtx {
   top: 50%;
   opacity: 1;
@@ -569,6 +568,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+.knowledge-source {
+  font-size: smaller;
 }
 
 

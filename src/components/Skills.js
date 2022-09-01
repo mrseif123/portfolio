@@ -1,9 +1,13 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
+import cs from "../assets/img/tools/cs.png";
+import ds from "../assets/img/tools/ds.png";
+import wd from "../assets/img/tools/wd.png";
+import md from "../assets/img/tools/md.png";
+
+// import pm from "../assets/img/tools/pm.png";
+// import ui from "../assets/img/tools/ui.png";
+
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 import { Container, Row, Col } from "react-bootstrap";
@@ -36,36 +40,69 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Technology Stack</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
-                modi quasi temporibus ex odit iste beatae! Id error minus quam
-                veritatis odit, quis earum porro nisi molestias voluptatum qui
-                veniam.
+                Learning is a process. I alway consider my self an eager learner
+                and seek discomfort in new topics espically with the
+                availability of hands-on material, which although may result in
+                a lack of deep knowledge in some aspects, but it allows me to
+                keep exploring new technologies and concepts.
               </p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
+                style={{
+                  padding: "10px",
+                  flex: 1,
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
                 <div className="item">
-                  <img src={meter1} alt="image" />
+                  <img src={cs} alt="image" style={{ rounded: "10" }} />
+                  <h5>Computer Science</h5>
+                  <h6 className="knowledge-source">
+                    Knowledge Source: The Hebrew University
+                  </h6>
+                </div>
+                <div className="item">
+                  <img src={wd} alt="image" />
                   <h5>Web Development</h5>
+                  <h6 className="knowledge-source">
+                    Knowledge Source: Practicum100 Web Bootcamp
+                  </h6>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="image" />
+                  <img src={ds} alt="image" />
                   <h5>Data Science</h5>
+                  <h6 className="knowledge-source">
+                    Knowledge Source: The Hebrew University
+                  </h6>
                 </div>
-                <div className="item">
-                  <img src={meter3} alt="image" />
+                {/* <div className="item">
+                  <img src={ui} alt="image" />
                   <h5>UX/UI</h5>
-                </div>
+                  <h6 className="knowledge-source">
+                    Knowledge Source: Personal project (Silal)
+                  </h6>
+                </div> */}
                 <div className="item">
-                  <img src={meter3} alt="image" />
-                  <h5>Project Management</h5>
-                </div>
-                <div className="item">
-                  <img src={meter1} alt="image" />
+                  <img
+                    src={md}
+                    alt="image"
+                    style={{ width: "190px", heigh: "190px" }}
+                  />
                   <h5>Mobile Development</h5>
+                  <h6 className="knowledge-source">
+                    Knowledge Source: Online courses & Videos
+                  </h6>
                 </div>
+                {/* <div className="item">
+                  <img src={pm} alt="image" />
+                  <h5>Project Management</h5>
+                  <h6 className="knowledge-source">
+                    Knowledge Source: Personal project (Silal)
+                  </h6>
+                </div> */}
               </Carousel>
             </div>
           </Col>
