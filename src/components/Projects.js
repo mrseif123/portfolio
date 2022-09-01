@@ -55,7 +55,7 @@ export const Projects = () => {
     },
   ];
 
-  const DataScienceProjects = [
+  const aiDataProjects = [
     {
       title: "1.8Million US Wildfires",
       description: "Kaggle, Jupiter Notebook, Python, Pandas, Matplotlib",
@@ -116,7 +116,7 @@ export const Projects = () => {
       description:
         "React-Native, Animateable, TailwindCSS, React-Navigation, Lottie, Sanity CMS, Google Navigation API, Google Maps API.",
       imgUrl:
-        "https://play-lh.googleusercontent.com/xi2UK7LlJLOjnsq465fqvezZL8P2YCHK7jQbKAegKf_uIATHhi-N3TCzZUJbg9gpCUk",
+        "https://www.bitrefill.com/content/cn/b_rgb%3AFFFFFF%2Cc_pad%2Ch_600%2Cw_1200/v1594162655/deliveroo.jpg",
       link: "https://github.com/mrseif123/Deliveroo2.0",
     },
     {
@@ -128,12 +128,14 @@ export const Projects = () => {
       link: "https://github.com/mrseif123/MealsToGo",
     },
     {
-      title: "Robofriends",
+      title: "Crypto-Lottery",
       description:
-        "ReactJS, Search, OnePage website, useState, React Components, NPM",
+        "NextJS, ReactJS, Metamask Authorization, Solidity, thirdweb, Countdown, Smart Contracts",
       imgUrl:
-        "https://camo.githubusercontent.com/4abd19d665f1b15358793b758f2d6a64f6cef59d1d92287d57fb32bab218015f/68747470733a2f2f692e696d6775722e636f6d2f6a6d4b477036632e6a7067",
-      link: "https://github.com/mrseif123/robofriends",
+        "https://th.bing.com/th/id/R.cf3f7639754e0dc19bbc1a5f1666e347?rik=Ath%2b%2bmDhk6YVaw&pid=ImgRaw&r=0",
+      link: "https://github.com/mrseif123/Crypto-Lottery",
+      deploymentLink: "https://crypto-lottery-phi.vercel.app/",
+      instructions: "Must be logged in to the Metamask extension.",
     },
     {
       title: "From Portland to Portland",
@@ -210,7 +212,7 @@ export const Projects = () => {
 
                       <Tab.Pane eventKey="second">
                         <div className="projects-container-grid">
-                          {DataScienceProjects.map((project, index) => {
+                          {aiDataProjects.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </div>
