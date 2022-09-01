@@ -51,11 +51,7 @@ export const Contact = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-            <img
-              className="animate__animated animate__zoomIn"
-              src={contactImg}
-              alt="Contact Us"
-            />
+            <img className="spin" src={contactImg} alt="Contact Us" />
           </Col>
           <Col size={12} md={6}>
             <div

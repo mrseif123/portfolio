@@ -34,7 +34,7 @@ export const Skills = () => {
         <Row className="row">
           <Col className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
+              <h2>Technology Stack</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
                 modi quasi temporibus ex odit iste beatae! Id error minus quam

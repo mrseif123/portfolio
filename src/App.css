@@ -645,6 +645,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+ @keyframes spinning {
+    from { transform: rotate(-30deg) }
+    50% { transform: rotate(30deg) }
+    to { transform: rotate(-30deg) }
+
+  }
+  .spin {
+    animation-name: spinning;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: ease-in-out;
+  }
+
+
+
 
 /************ Footer Css ************/
 .footer {

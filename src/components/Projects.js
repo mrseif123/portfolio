@@ -144,6 +144,7 @@ export const Projects = () => {
       imgUrl:
         "https://repository-images.githubusercontent.com/379983335/faae0568-bc3e-4bea-be69-7bf9ff066e73",
       link: "https://github.com/mrseif123/From-Portland-to-Portland",
+      deploymentLink: "https://mrseif123.github.io/From-Portland-to-Portland/",
     },
     {
       title: "News-Explorer",
