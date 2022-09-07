@@ -1,4 +1,3 @@
-import { Col } from "react-bootstrap";
 import { AiOutlineDeploymentUnit } from "react-icons/ai";
 
 export const ProjectCard = ({
